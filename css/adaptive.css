@@ -1,0 +1,336 @@
+@media screen and (max-width: 1140px) {
+    .menu-item.number a {
+        display: none;
+    }
+
+    .main {
+        padding: 93px 0 62px 0;
+    }
+
+    .main .container {
+        display: grid;
+        grid-template-rows: 300px 1fr;
+        grid-template-columns: none;
+    }
+
+    .main-info-action button {
+        margin-top: 41px;
+    }
+
+    .main-image {
+        justify-self: center;
+    }
+
+    .advantages-content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .advantages-text {
+        text-align: center;
+    }
+
+    .advantages-title h2 {
+        max-width: 520px;
+        margin: 0 auto;
+    }
+
+    .advantages-description p {
+        max-width: 665px;
+        margin: 62px auto 40px auto;
+    }
+
+    .advantages-image {
+        text-align: center;
+    }
+
+    .advantages-cards {
+        grid-template-columns: repeat(auto-fit, 250px);
+        justify-content: center;
+        gap: 85px 55px;
+    }
+
+    .advantages-card {
+        text-align: center;
+    }
+
+    .advantages-card-title {
+        max-width: 70px;
+        margin: 0 auto;
+    }
+
+    .advantages-card-title p {
+        left: 28%;
+    }
+
+    .macaroon {
+        padding: 98px 0 100px 0;
+    }
+
+    .macaroon-cards {
+        justify-content: center;
+        gap: 136px 29px;
+    }
+
+    .order {
+        padding-top: 119px;
+    }
+
+    .order .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .order-image {
+        order: 2;
+        align-self: end;
+    }
+
+    .order-info {
+        margin: 0;
+        width: 407px;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .order-info-image {
+        top: 100px;
+        right: -250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 34px 18px 0;
+    }
+
+    .header .container {
+        justify-content: space-between;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .close svg {
+        fill: rgb(130, 19, 40);
+        width: 40px;
+        display: none;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .burger {
+        order: 2;
+    }
+
+    .b1, .b2, .b3 {
+        display: block;
+    }
+
+    .main {
+        padding: 90px 0 43px 0;
+        overflow: hidden;
+    }
+
+    .main .container {
+        align-items: center;
+    }
+
+    .main-info-action button {
+        margin: 39px auto 0 auto;
+    }
+
+    .main .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-image-img {
+        margin-top: 38px;
+    }
+
+    .advantages {
+        padding: 100px 0;
+    }
+
+    .advantages-title h2 {
+        font-size: 30px;
+    }
+
+    .advantages-description p {
+        font-size: 16px;
+        margin: 40px auto 0 auto;
+    }
+
+    .advantages-image {
+        margin: 62px 0;
+    }
+
+    .advantages-cards {
+        margin: 0;
+        grid-template-columns: repeat(auto-fit, 180px);
+        gap: 36px 17px;
+    }
+
+    .advantages-card-text {
+        max-width: 180px;
+    }
+
+    .order {
+        padding: 99px 0 77px 0;
+    }
+
+    .order .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .order-image-macaroon {
+        display: none;
+    }
+
+    .order-info-image {
+        display: none;
+    }
+
+    .order-info {
+        max-width: 343px;
+        margin: 0 auto;
+    }
+
+    .order-info-title {
+        font-size: 30px;
+    }
+
+    .order-info-text {
+        font-size: 16px;
+    }
+
+    .order-info .forms {
+        margin-top: 60px;
+    }
+
+    .order-info-data {
+        margin-top: 40px;
+        row-gap: 15px;
+    }
+
+    .order-info-action button {
+        margin-top: 15px;
+    }
+
+    .order-image-strawberry {
+        top: -420px;
+        right: 0;
+        left: auto;
+    }
+
+    .main-info-text p {
+        margin-top: 40px;
+        font-size: 16px;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .footer-link {
+        order: 2;
+    }
+
+    .footer-icon {
+        order: 3;
+    }
+
+    .logo-text {
+        display: none;
+    }
+
+    .footer-logo-text.logo-text {
+        display: block;
+        order: 4;
+    }
+
+    .menu {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: #000000c9;
+        z-index: 3;
+    }
+
+    .menu ul {
+        gap: 40px;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .menu-item a {
+        color: #ffffff;
+    }
+
+    .menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu .close svg {
+        display: block;
+        width: 35px;
+        height: 35px;
+        fill: #ffffff;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+
+    .popup-present {
+        width: 50px;
+        height: 50px;
+    }
+
+    .popup-content {
+        right: 100px;
+        bottom: -5px;
+        padding: 12px 14px 15px 8px;
+    }
+
+    .popup-content::before {
+        top: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main-info {
+        max-width: 334px;
+        text-align: center;
+    }
+
+    .main-info-title h1 {
+        font-size: 31px;
+    }
+
+
+}
+
+@media screen and (max-width: 374px) {
+    .order-info, .order-info-text, .order-info .forms, input, .order-info-action button {
+        max-width: 280px;
+
+    }
+
+    input {
+        padding: 15px 12px;
+    }
+}
